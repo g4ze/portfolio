@@ -12,6 +12,23 @@ tl.fromTo(".message", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 tl.fromTo(".middle", { opacity: 0 }, { opacity: 1, duration: 1 });
 
+//=====================================
+
+
+// const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+
+// tl.to(".text", { y: "0%", duration: 1, stagger: 0 });
+// tl.to(".slider", { y: "-100%", duration: 0, delay: 0 });
+// tl.to(".intro", { y: "-100%", duration: 0 }, "-=1");
+// tl.fromTo(".big-text", { opacity: 0 }, { opacity: 0, duration: 0, delay: 0 }, "-=1");
+// tl.fromTo("#myBtn", { opacity: 0 }, { opacity: 0, duration: 0 });
+// tl.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 0 });
+
+// tl.fromTo(".message", { opacity: 0 }, { opacity: 1, duration: 0 });
+// /*for the timer here*/
+
+// tl.fromTo(".middle", { opacity: 0 }, { opacity: 1, duration: 0 });
+
 
 
 
